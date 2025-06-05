@@ -123,7 +123,7 @@ function previewPDF(file) {
 ### Communication avec n8n
 - Implémenter l'appel API vers le webhook
 - Utiliser `fetch` ou `axios` pour l'envoi
-- URL du webhook: `https://[votre-domaine-n8n]/webhook/03c2874d-473a-4de2-a4bc-3ccde725f1fc`
+- URL du webhook: `https://primary-production-8f28.up.railway.app/webhook/03c2874d-473a-4de2-a4bc-3ccde725f1fc`
 
 ```javascript
 async function sendToWebhook(fileData) {
@@ -133,7 +133,7 @@ async function sendToWebhook(fileData) {
     
     // Envoyer au webhook
     try {
-        const response = await fetch('https://[votre-domaine-n8n]/webhook/03c2874d-473a-4de2-a4bc-3ccde725f1fc', {
+        const response = await fetch('https://primary-production-8f28.up.railway.app/webhook/03c2874d-473a-4de2-a4bc-3ccde725f1fc', {
             method: 'POST',
             body: formData
         });
