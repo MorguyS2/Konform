@@ -8,7 +8,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const processingStatus = document.getElementById('processing-status');
 
     // Webhook endpoint (replace with actual n8n webhook URL when available)
-    const N8N_WEBHOOK_URL = 'https://primary-production-689f.up.railway.app/webhook/03c2874d-473a-4de2-a4bc-3ccde725f1fc';
+    const N8N_WEBHOOK_URL = 'https://primary-production-8f28.up.railway.app/webhook/03c2874d-473a-4de2-a4bc-3ccde725f1fc';
 
     // Event listener for consultant selection (future use)
     if (consultantSelect) {
